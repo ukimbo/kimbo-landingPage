@@ -19,7 +19,7 @@ ul {
 }
 
 .content {
-    max-width: 920px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ ul {
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
-    margin: 8px 0;
+    margin: 16px 0;
 }
 
 .info {
@@ -104,7 +104,7 @@ ul {
 
 .boxes {
     display: flex;
-    gap: 64px;
+    gap: 48px;
 }
 
 .info-box {
@@ -115,12 +115,37 @@ ul {
 }
 
 .box-img {
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 12px;
     border: 4px solid #3882f6;
 }
 
 .text-box {
-    max-width: 175px;
+    max-width: 150px;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    padding: 72px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quoter {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    color: #e5e7eb;
+    padding: 24px;
+    font-size: 18px;
+    text-align: center;
 }
