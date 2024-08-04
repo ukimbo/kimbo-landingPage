@@ -18,6 +18,13 @@ ul {
     gap: 16px;
 }
 
+button {
+    pointer-events: auto; /* Ensure the button is clickable */
+    position: relative;
+    z-index: 10; /* Ensure button is on top */
+    cursor: pointer;
+}
+
 .content {
     max-width: 960px;
     margin: 0 auto;
@@ -141,6 +148,37 @@ ul {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    background: #3882f6;
+    margin: 96px;
+    padding: 36px;
+    border-radius: 12px;
+}
+
+.call-text {
+    color: #f9faf9;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.action-box p {
+    margin: 0px;
+}
+
+.action-box .signup-button {
+    border: 2px solid #f9faf9;
 }
 
 .footer {
